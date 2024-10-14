@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F2F3F5"
+        tools:context="com.mh.shop.ui.activity.SuccessActivity">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/icon_success"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="83dp"/>
+        
+        <TextView
+            android:id="@+id/mContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="24dp"
+            style="@style/tv_16_333_bold"
+            android:layout_marginTop="22dp"
+            android:text="兑换成功"/>
+
+        <TextView
+            android:id="@+id/mDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="24dp"
+            android:textSize="12sp"
+            android:textColor="@color/color_666666"
+            android:layout_marginTop="8dp"
+            android:text="兑换成功"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

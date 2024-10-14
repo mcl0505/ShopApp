@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_shop">#FF990D</color>
+    <color name="color_FF980C">#FF980C</color>
+    <color name="color_979797">#979797</color>
+    <color name="color_FFEDC7">#FFEDC7</color>
+    <color name="color_FFF2E2">#FFF2E2</color>
+    <color name="setup_yellow">#FFCC00</color>
+    <color name="setup_green">#00FF99</color>
+
+</resources>

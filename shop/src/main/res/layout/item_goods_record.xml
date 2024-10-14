@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <com.hjq.shape.layout.ShapeConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        app:shape_radius="8dp"
+        app:shape_solidColor="@color/color_white">
+
+        <TextView
+            android:id="@+id/mTitle"
+            style="@style/tv_16_333"
+            android:text="购物积分"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginLeft="12dp"
+            app:layout_constraintEnd_toStartOf="@id/mNumber"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:id="@+id/mTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/color_999999"
+            android:text="2023-11-27 09:12:36"
+            app:layout_constraintTop_toBottomOf="@id/mTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/mTitle"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        <com.hjq.shape.view.ShapeTextView
+            android:id="@+id/mNumber"
+            app:shape_textColor="@color/color_999999"
+            app:shape_textSelectedColor="#FF8811"
+            android:text="-100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/mTime"/>
+
+    </com.hjq.shape.layout.ShapeConstraintLayout>
+</layout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.ShopMainActivity">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/mViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <com.mh55.easy.widget.tab.TabButtonGroup
+            android:id="@+id/mTabButtonGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:paddingBottom="5dp">
+
+            <com.mh55.easy.widget.tab.TabButton
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:tbn_text_size="11sp"
+                app:tbn_icon_size="24dp"
+                app:tbn_tip="任务"
+                app:tbn_checked="true"
+                app:tbn_selected_icon="@mipmap/icon_main_tab_task"
+                app:tbn_unselected_icon="@mipmap/icon_main_tab_task_no"
+                app:tbn_text_color="@color/color_333333"
+                app:tbn_text_select_color="@color/color_shop"
+                />
+            <com.mh55.easy.widget.tab.TabButton
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:tbn_text_size="11sp"
+                app:tbn_icon_size="24dp"
+                app:tbn_tip="我的"
+                app:tbn_selected_icon="@mipmap/icon_main_tab_mine"
+                app:tbn_unselected_icon="@mipmap/icon_main_tab_mine_no"
+                app:tbn_text_color="@color/color_333333"
+                app:tbn_text_select_color="@color/color_shop"
+                />
+
+        </com.mh55.easy.widget.tab.TabButtonGroup>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

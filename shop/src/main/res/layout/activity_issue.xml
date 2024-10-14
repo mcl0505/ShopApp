@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.mh.shop.ui.activity.IssueActivity">
+
+        <com.mh55.easy.widget.title.StatusBarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/color_white">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:paddingHorizontal="16dp"
+                android:src="@mipmap/icon_title_back_black" />
+
+            <TextView
+                style="@style/tv_16_333_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="做题" />
+
+            <TextView
+                android:id="@+id/issueNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="16dp"
+                android:text="1/5"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <com.hjq.shape.layout.ShapeLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="12dp"
+                app:shape_solidColor="@color/color_white"
+                app:shape_radius="8dp">
+                <TextView
+                    android:id="@+id/issueTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1、（单选题）这是题目标题？"
+                    style="@style/tv_16_333_bold"
+                    android:layout_marginVertical="16dp"
+                    android:layout_marginHorizontal="16dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:itemCount="5"
+                    tools:listitem="@layout/item_issue"
+                    android:overScrollMode="never"/>
+            </com.hjq.shape.layout.ShapeLinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white">
+            <com.hjq.shape.view.ShapeTextView
+                android:id="@+id/nextIssue"
+                style="@style/button_40"
+                android:text="下一题"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginVertical="7dp"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

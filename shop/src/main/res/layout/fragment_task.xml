@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ps_color_f2"
+        tools:context=".ui.fragment.TaskFragment">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:background="@mipmap/bg_task" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/close"
+                style="@style/tv_16_333_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/icon_task_back"
+                android:gravity="center_vertical"
+                android:text="任务中心" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:focusable="true"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:shadowColor="@color/color_transparent">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.hjq.shape.layout.ShapeLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        android:orientation="vertical"
+                        android:padding="12dp"
+                        app:shape_radius="12dp"
+                        app:shape_solidColor="@color/color_white">
+
+                        <TextView
+                            style="@style/tv_16_333_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="平台活动" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/mTaskRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:itemCount="2"
+                            tools:listitem="@layout/item_task" />
+                    </com.hjq.shape.layout.ShapeLinearLayout>
+
+                    <TextView
+                        style="@style/tv_16_333_bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="12dp"
+                        android:text="优惠券" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <LinearLayout
+                            android:id="@+id/llShop"
+                            android:layout_width="0dp"
+                            android:layout_height="96dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/bg_task_shop"
+                            android:orientation="vertical"
+                            android:paddingLeft="16dp">
+
+                            <TextView
+                                style="@style/tv_16_333_bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text="券包商店" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:drawableRight="@mipmap/icon_task_into"
+                                android:drawablePadding="4dp"
+                                android:text="点击进入"
+                                android:textColor="@color/ps_color_66"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="13dp"
+                            android:layout_height="1dp" />
+
+                        <LinearLayout
+                            android:id="@+id/llCoupon"
+                            android:layout_width="0dp"
+                            android:layout_height="96dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/bg_task_coupon"
+                            android:orientation="vertical"
+                            android:paddingLeft="16dp">
+
+                            <TextView
+                                style="@style/tv_16_333_bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text="我的券包" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:drawableRight="@mipmap/icon_task_into"
+                                android:drawablePadding="4dp"
+                                android:text="点击进入"
+                                android:textColor="@color/ps_color_66"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/tv_16_333_bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="12dp"
+                        android:text="贡献值专区" />
+
+                    <com.hjq.shape.layout.ShapeRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="12dp"
+                        android:padding="16dp"
+                        app:shape_radius="8dp"
+                        app:shape_solidColor="@color/ps_color_white">
+
+                        <TextView
+                            android:id="@+id/shopHint"
+                            style="@style/tv_16_333_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="购物" />
+
+                        <TextView
+                            android:id="@+id/shopDes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/shopHint"
+                            android:layout_marginTop="4dp"
+                            android:text="每月上限 0"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/shopValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/shopDes"
+                            android:layout_alignParentRight="true"
+                            android:text="本月已获得 0"
+                            android:textSize="14sp" />
+
+                    </com.hjq.shape.layout.ShapeRelativeLayout>
+
+                    <com.hjq.shape.layout.ShapeRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="12dp"
+                        android:padding="16dp"
+                        app:shape_radius="8dp"
+                        app:shape_solidColor="@color/ps_color_white">
+
+                        <TextView
+                            android:id="@+id/pushHint"
+                            style="@style/tv_16_333_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="推广" />
+
+                        <TextView
+                            android:id="@+id/pushDes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pushHint"
+                            android:layout_marginTop="4dp"
+                            android:text="无上限"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/pushValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/pushDes"
+                            android:layout_alignParentRight="true"
+                            android:text="本月已获得 0"
+                            android:textSize="14sp" />
+
+                    </com.hjq.shape.layout.ShapeRelativeLayout>
+
+                    <com.hjq.shape.layout.ShapeRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="12dp"
+                        android:padding="16dp"
+                        app:shape_radius="8dp"
+                        app:shape_solidColor="@color/ps_color_white">
+
+                        <TextView
+                            android:id="@+id/adHint"
+                            style="@style/tv_16_333_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="广告" />
+
+                        <TextView
+                            android:id="@+id/adDes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/adHint"
+                            android:layout_marginTop="4dp"
+                            android:text="看完5个视频获得1个贡献值"
+                            android:textSize="14sp" />
+
+                        <com.hjq.shape.view.ShapeTextView
+                            android:id="@+id/adValue"
+                            android:layout_width="80dp"
+                            android:layout_height="28dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            app:shape_solidColor="@color/color_FF980C"
+                            app:shape_radius="100dp"
+                            android:gravity="center"
+                            android:text="看视频(1/5)"
+                            android:textColor="@color/ps_color_white"
+                            android:textSize="12sp" />
+
+                    </com.hjq.shape.layout.ShapeRelativeLayout>
+
+                    <com.hjq.shape.layout.ShapeRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="12dp"
+                        android:padding="16dp"
+                        app:shape_radius="8dp"
+                        app:shape_solidColor="@color/ps_color_white">
+
+                        <TextView
+                            android:id="@+id/issueHint"
+                            style="@style/tv_16_333_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="做题" />
+
+                        <TextView
+                            android:id="@+id/issueDes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/issueHint"
+                            android:layout_marginTop="4dp"
+                            android:text="做完题获得1个贡献值"
+                            android:textSize="14sp" />
+
+                        <com.hjq.shape.view.ShapeTextView
+                            android:id="@+id/issueValue"
+                            android:layout_width="80dp"
+                            android:layout_height="28dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            app:shape_textSelectedColor="@color/color_white"
+                            app:shape_solidSelectedColor="@color/color_shop"
+                            app:shape_solidColor="#D0D0D0"
+                            app:shape_radius="100dp"
+                            android:gravity="center"
+                            android:text="去做题"
+                            android:textColor="@color/ps_color_white"
+                            android:textSize="12sp" />
+
+                    </com.hjq.shape.layout.ShapeRelativeLayout>
+
+                    <com.hjq.shape.layout.ShapeRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="24dp"
+                        android:padding="16dp"
+                        app:shape_radius="8dp"
+                        app:shape_solidColor="@color/ps_color_white">
+
+                        <TextView
+                            android:id="@+id/suggestHint"
+                            style="@style/tv_16_333_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="我为平台建言" />
+
+                        <com.hjq.shape.view.ShapeTextView
+                            android:id="@+id/suggestValue"
+                            android:layout_width="80dp"
+                            android:layout_height="28dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            app:shape_solidColor="@color/color_FF980C"
+                            app:shape_radius="100dp"
+                            android:gravity="center"
+                            android:text="去建言"
+                            android:textColor="@color/ps_color_white"
+                            android:textSize="12sp" />
+
+                    </com.hjq.shape.layout.ShapeRelativeLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </FrameLayout>
+</layout>

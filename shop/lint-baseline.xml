@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.3.0" type="baseline" client="gradle" dependencies="false" name="AGP (8.3.0)" variant="all" version="8.3.0">
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.13.0"
+        errorLine1="    api &apos;androidx.core:core-ktx:1.10.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="53"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.2 is available: 1.1.5"
+        errorLine1="    androidTestImplementation &apos;androidx.test.ext:junit:1.1.2&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="58"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.3.0 is available: 3.5.1"
+        errorLine1="    androidTestImplementation &apos;androidx.test.espresso:espresso-core:3.3.0&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="59"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.6.1 is available: 2.6.2"
+        errorLine1="    api &apos;androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="66"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.6.1 is available: 2.6.2"
+        errorLine1="    api &apos;androidx.lifecycle:lifecycle-livedata-ktx:2.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="67"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.1 is available: 2.6.2"
+        errorLine1="    api &apos;androidx.lifecycle:lifecycle-runtime-ktx:2.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="68"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib than 1.9.0 is available: 1.9.20"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-stdlib:1.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="75"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.9.0 is available: 1.9.20"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="76"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.9.0 is available: 1.9.20"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="77"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-reflect than 1.7.20 is available: 1.9.20"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-reflect:1.7.20&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="78"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.6.1 is available: 1.7.3"
+        errorLine1="    api &apos;org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="80"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.6.1 is available: 1.6.4"
+        errorLine1="    api &apos;org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="81"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.squareup.okhttp3:okhttp than 4.9.3 is available: 4.10.0"
+        errorLine1="    api &apos;com.squareup.okhttp3:okhttp:4.9.3&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="86"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.alibaba:fastjson than 1.2.69 is available: 1.2.76"
+        errorLine1="    api &apos;com.alibaba:fastjson:1.2.69&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="100"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.code.gson:gson than 2.9.1 is available: 2.10.1"
+        errorLine1="    api &apos;com.google.code.gson:gson:2.9.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="102"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.github.bumptech.glide:glide than 4.14.2 is available: 4.15.1"
+        errorLine1="    api &apos;com.github.bumptech.glide:glide:4.14.2&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="104"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDynamicVersion"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (junit:junit:4.+)"
+        errorLine1="    testImplementation &apos;junit:junit:4.+&apos;"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="57"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableXml"
+        message="Use `app:drawableLeftCompat` instead of `android:drawableLeft`"
+        errorLine1="                android:drawableLeft=&quot;@mipmap/icon_task_back&quot;/>"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="32"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableXml"
+        message="Use `app:drawableRightCompat` instead of `android:drawableRight`"
+        errorLine1="                                android:drawableRight=&quot;@mipmap/icon_task_into&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="98"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="UseCompatTextViewDrawableXml"
+        message="Use `app:drawableRightCompat` instead of `android:drawableRight`"
+        errorLine1="                                android:drawableRight=&quot;@mipmap/icon_task_into&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="126"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.appcompat`) instead"
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.6.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="47"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.material`) instead"
+        errorLine1="    implementation &apos;com.google.android.material:material:1.10.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="48"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.activity`) instead"
+        errorLine1="    implementation &apos;androidx.activity:activity:1.8.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="49"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.constraintlayout`) instead"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="50"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.core.ktx`) instead"
+        errorLine1="    api &apos;androidx.core:core-ktx:1.10.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="53"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.appcompat`) instead"
+        errorLine1="    api &apos;androidx.appcompat:appcompat:1.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="54"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.material`) instead"
+        errorLine1="    api &apos;com.google.android.material:material:1.10.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="55"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;androidx.legacy:legacy-support-v4:1.0.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="56"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.test.ext:junit is already available as `androidx-junit`, but using version 1.1.5 instead)"
+        errorLine1="    androidTestImplementation &apos;androidx.test.ext:junit:1.1.2&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="58"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead (androidx.test.espresso:espresso-core is already available as `androidx-espresso-core`, but using version 3.5.1 instead)"
+        errorLine1="    androidTestImplementation &apos;androidx.test.espresso:espresso-core:3.3.0&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="59"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;androidx.multidex:multidex:2.0.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="62"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.constraintlayout`) instead"
+        errorLine1="    api &apos;androidx.constraintlayout:constraintlayout:2.1.4&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="63"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;androidx.vectordrawable:vectordrawable:1.1.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="64"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="66"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;androidx.lifecycle:lifecycle-livedata-ktx:2.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="67"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;androidx.lifecycle:lifecycle-runtime-ktx:2.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="68"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;androidx.viewpager2:viewpager2:1.0.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="70"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.anko:anko-sdk25:0.10.8&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="73"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.anko:anko-appcompat-v7:0.10.8&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="74"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-stdlib:1.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="75"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="76"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="77"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.kotlin:kotlin-reflect:1.7.20&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="78"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="80"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="81"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.squareup.moshi:moshi:1.13.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="83"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.squareup.moshi:moshi-kotlin-codegen:1.13.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="84"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    kapt &apos;com.squareup.moshi:moshi-kotlin:1.13.0&apos;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="85"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.squareup.okhttp3:okhttp:4.9.3&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="86"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.squareup.okhttp3:logging-interceptor:4.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="87"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.squareup.retrofit2:converter-moshi:2.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="88"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.squareup.retrofit2:retrofit:2.9.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="89"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;io.github.youth5201314:banner:2.2.3&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="92"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.scwang.smart:refresh-layout-kernel:2.0.3&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="94"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.scwang.smart:refresh-header-classics:2.0.3&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="95"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.scwang.smart:refresh-footer-classics:2.0.3&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="96"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.11&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="98"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.alibaba:fastjson:1.2.69&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="100"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.google.code.gson:gson:2.9.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="102"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.github.bumptech.glide:glide:4.14.2&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="104"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;io.coil-kt:coil:2.3.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="105"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;io.coil-kt:coil-gif:2.3.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="106"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;io.coil-kt:coil-svg:2.3.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="107"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;io.coil-kt:coil-video:1.4.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="108"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.tencent:mmkv-static:1.2.7&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="110"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.contrarywind:Android-PickerView:4.1.9&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="112"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;io.github.lucksiege:pictureselector:v3.11.2&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="114"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.kingja.loadsir:loadsir:1.3.8&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="116"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.github.JessYanCoding:AndroidAutoSize:v1.2.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="118"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.blankj:utilcodex:1.31.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="120"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    api &apos;com.guolindev.permissionx:permissionx:1.7.1&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="123"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation &apos;com.mh55.easyLibrary:BasicLibrary:1.0.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="124"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="15"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;mine&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;mine&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_mine.xml"
+            line="18"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;任务中心&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;任务中心&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="28"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;平台活动&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;平台活动&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="55"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;优惠券&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;优惠券&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="68"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;券包商店&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;券包商店&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="89"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;点击进入&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;点击进入&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="95"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;我的券包&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;我的券包&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="117"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;点击进入&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;点击进入&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="123"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;贡献值专区&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;贡献值专区&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="135"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;购物&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;购物&quot;/>"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="153"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;每月上限 0&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;每月上限 0&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="159"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;本月已获得 0&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;本月已获得 0&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="168"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;推广&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;推广&quot;/>"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="188"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;无上限&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;无上限&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="194"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;本月已获得 0&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;本月已获得 0&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="203"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;广告&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;广告&quot;/>"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="223"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;看完5个视频获得1个贡献值&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;看完5个视频获得1个贡献值&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="229"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;看视频(1/5)&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;看视频(1/5)&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="238"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;做题&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;做题&quot;/>"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="261"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;做完题获得1个贡献值&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;做完题获得1个贡献值&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="267"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;去做题&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;去做题&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="276"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;我为平台建言&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;我为平台建言&quot;/>"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="301"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;去建言&quot;, should use `@string` resource"
+        errorLine1="                            android:text=&quot;去建言&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="307"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;第一轮：1000万（兑换），30次领取&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;第一轮：1000万（兑换），30次领取&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_task.xml"
+            line="16"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                            android:paddingLeft=&quot;16dp&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="83"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry"
+        errorLine1="                            android:paddingLeft=&quot;16dp&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="111"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:drawableLeft` with `android:drawableStart=&quot;@mipmap/icon_task_back&quot;` to better support right-to-left layouts"
+        errorLine1="                android:drawableLeft=&quot;@mipmap/icon_task_back&quot;/>"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="32"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;16dp&quot;` to better support right-to-left layouts"
+        errorLine1="                            android:paddingLeft=&quot;16dp&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="83"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:drawableRight` with `android:drawableEnd=&quot;@mipmap/icon_task_into&quot;` to better support right-to-left layouts"
+        errorLine1="                                android:drawableRight=&quot;@mipmap/icon_task_into&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="98"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:paddingLeft` with `android:paddingStart=&quot;16dp&quot;` to better support right-to-left layouts"
+        errorLine1="                            android:paddingLeft=&quot;16dp&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="111"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:drawableRight` with `android:drawableEnd=&quot;@mipmap/icon_task_into&quot;` to better support right-to-left layouts"
+        errorLine1="                                android:drawableRight=&quot;@mipmap/icon_task_into&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="126"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_alignParentRight` with `android:layout_alignParentEnd=&quot;true&quot;` to better support right-to-left layouts"
+        errorLine1="                            android:layout_alignParentRight=&quot;true&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="171"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_alignParentRight` with `android:layout_alignParentEnd=&quot;true&quot;` to better support right-to-left layouts"
+        errorLine1="                            android:layout_alignParentRight=&quot;true&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="206"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_alignParentRight` with `android:layout_alignParentEnd=&quot;true&quot;` to better support right-to-left layouts"
+        errorLine1="                            android:layout_alignParentRight=&quot;true&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="244"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_alignParentRight` with `android:layout_alignParentEnd=&quot;true&quot;` to better support right-to-left layouts"
+        errorLine1="                            android:layout_alignParentRight=&quot;true&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="282"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        message="Consider replacing `android:layout_alignParentRight` with `android:layout_alignParentEnd=&quot;true&quot;` to better support right-to-left layouts"
+        errorLine1="                            android:layout_alignParentRight=&quot;true&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_task.xml"
+            line="313"
+            column="29"/>
+    </issue>
+
+</issues>

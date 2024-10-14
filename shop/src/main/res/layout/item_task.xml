@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <com.hjq.shape.view.ShapeTextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shape_solidColor="#FFF6D5"
+        app:shape_radius="6dp"
+        android:textColor="@color/ps_color_33"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="第一轮：1000万（兑换），30次领取"
+        android:padding="10dp"/>
+</layout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <com.hjq.shape.view.ShapeTextView
+        android:id="@+id/tvTab"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        app:shape_radius="100dp"
+        app:shape_solidColor="#E2E2E2"
+        app:shape_solidSelectedColor="@color/color_shop"
+        app:shape_textSelectedColor="@color/color_white"
+        app:shape_textColor="#666666"
+        android:gravity="center"
+        android:text="全部"
+        android:paddingHorizontal="16dp" />
+</layout>

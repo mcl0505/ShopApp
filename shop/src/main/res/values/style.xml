@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tv_16_333">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/ps_color_33</item>
+    </style>
+    <style name="tv_16_333_bold">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/ps_color_33</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="button_50">
+        <item name="shape_radius">100dp</item>
+        <item name="shape_solidColor">@color/color_shop</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="button_40">
+        <item name="shape_radius">100dp</item>
+        <item name="shape_solidColor">@color/color_shop</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="edit_style">
+        <item name="et_right_image">@mipmap/icon_edit_delete</item>
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textColorHint">#646566</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+    </style>
+
+    <style name="circleImageStyle_top_6">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">6dp</item>
+        <item name="cornerSizeTopRight">6dp</item>
+    </style>
+    <style name="circleImageStyle_5">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5dp</item>
+        <item name="backgroundColor">@color/color_transparent</item>
+        <item name="background">@color/color_transparent</item>
+    </style>
+    <style name="circleImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="backgroundColor">@color/color_transparent</item>
+        <item name="background">@color/color_transparent</item>
+    </style>
+</resources>

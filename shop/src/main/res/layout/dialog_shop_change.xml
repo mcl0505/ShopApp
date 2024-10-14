@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <com.hjq.shape.layout.ShapeLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shape_solidColor="@color/color_white"
+        app:shape_radiusInTopRight="16dp"
+        app:shape_radiusInTopLeft="16dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/mTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择兑换方式"
+                style="@style/tv_16_333_bold"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/dialogClose"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="14dp"
+                android:src="@mipmap/icon_dialog_close"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.hjq.shape.view.ShapeTextView
+            android:id="@+id/submit"
+            style="@style/button_50"
+            android:text="确认"
+            android:layout_marginHorizontal="26dp"
+            android:layout_marginBottom="26dp"/>
+    </com.hjq.shape.layout.ShapeLinearLayout>
+</layout>

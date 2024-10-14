@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/llIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp">
+        <TextView
+            android:id="@+id/issueContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/tv_16_333"
+            android:layout_marginLeft="16dp"
+            android:text="A.这是选项1"/>
+        <ImageView
+            android:id="@+id/imgIssue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/icon_point_unselect"
+            android:paddingHorizontal="16dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.mh.shop.ui.activity.BindAccountActivity">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llEdit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#F2F3F5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入绑定账号"
+                android:layout_marginTop="32dp"
+                android:layout_marginHorizontal="16dp"
+                android:textColor="#646566"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <com.hjq.shape.layout.ShapeLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="12dp"
+                app:shape_radius="6dp"
+                app:shape_solidColor="@color/color_white">
+
+                <com.mh55.easy.widget.ClearWriteEditText
+                    android:id="@+id/mInputTopEdit"
+                    style="@style/edit_style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/color_999999"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:hint="请输入绑定账号" />
+            </com.hjq.shape.layout.ShapeLinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:textColor="#FF5000"
+                android:textSize="12dp"
+                android:layout_marginTop="12dp"
+                android:text="温馨提示:为了保证账号的安全性和防止被滥用，该账号一经绑定，无法修改，请谨慎操作!"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.hjq.shape.view.ShapeTextView
+                    android:id="@+id/bindAccount"
+                    style="@style/button_50"
+                    android:layout_marginHorizontal="26dp"
+                    android:layout_centerInParent="true"
+                    android:text="绑定"/>
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@color/color_white"
+            android:visibility="gone"
+            android:paddingTop="55dp">
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="84dp"
+                android:src="@mipmap/icon_mine_bind_account_success"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已绑定"
+                android:textSize="18sp"
+                android:textColor="@color/color_333333"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:id="@+id/accountInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/tv_16_333_bold"
+                android:layout_marginTop="12dp"
+                tools:text="绑定的账号：13027386453"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</layout>

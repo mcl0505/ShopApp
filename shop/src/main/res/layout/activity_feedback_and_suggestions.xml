@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="12dp"
+                android:paddingBottom="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="请选择反馈类型"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/sp_14"
+                    android:textStyle="bold" />
+
+                <com.hjq.shape.view.ShapeTextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_select_feedback_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginTop="12dp"
+                    android:drawableRight="@mipmap/icon_into_aeaeae"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="12dp"
+                    android:text="功能异常"
+                    android:textColor="@color/color_ccc"
+                    app:shape_radius="5dp"
+                    app:shape_solidColor="@color/color_white" />
+
+                <com.mh55.easy.widget.LabelsView
+                    android:id="@+id/mLabelsView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    app:label_background="@drawable/lables_bg_feedback"
+                    app:label_gravity="center"
+                    app:label_textColor="@drawable/lables_color_feedback"
+                    app:label_text_height="wrap_content"
+                    app:label_text_width="wrap_content"
+                    app:label_lineMargin="12dp"
+                    app:label_maxSelect="1"
+                    app:label_selectType="SINGLE_IRREVOCABLY"
+                    app:label_wordMargin="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="反馈内容"
+                    android:textColor="@color/color_333333"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.hjq.shape.layout.ShapeLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    app:shape_radius="5dp"
+                    app:shape_solidColor="@color/color_white">
+
+                    <com.mh55.easy.widget.ClearWriteEditText
+                        android:id="@+id/et_feedback_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:maxLength="300"
+                        android:hint="请尽量描述遇到的问题、操作步骤并附上相关页面截图，以便更好定位问题哦，感谢"
+                        android:minHeight="130dp"
+                        style="@style/edit_style" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tvNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="5dp"
+                        android:text="0/300"
+                        android:textColor="#959595"
+                        app:layout_constraintBottom_toBottomOf="@id/et_feedback_content"
+                        app:layout_constraintEnd_toEndOf="@id/et_feedback_content" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/mRecyclerView_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="never"
+                        android:layout_marginTop="20dp" />
+
+                    <!--
+                          android:text="上传照片/视频(最多6张)"
+                    -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:text="上传照片(最多6张)"
+                        android:textColor="#959595"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </com.hjq.shape.layout.ShapeLinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="联系方式"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/sp_14"
+                    android:textStyle="bold" />
+
+                <com.hjq.shape.layout.ShapeLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="@dimen/dp_10"
+                    app:shape_radius="5dp"
+                    app:shape_solidColor="@color/color_white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="手机号码"
+                            android:textColor="@color/color_333333"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="bold" />
+
+                        <com.hjq.shape.layout.ShapeLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:shape_radius="5dp"
+                            app:shape_solidColor="@color/color_F5F5F5">
+
+                            <com.mh55.easy.widget.ClearWriteEditText
+                                android:id="@+id/et_phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:hint="请留下您手机号"
+                                android:inputType="phone"
+                                android:maxLength="11"
+                                android:minHeight="@dimen/dp_40"
+                                android:paddingHorizontal="12dp"
+                                style="@style/edit_style" />
+
+                        </com.hjq.shape.layout.ShapeLinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="姓名"
+                            android:textColor="@color/color_333333"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="bold" />
+
+                        <com.hjq.shape.layout.ShapeLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:shape_radius="5dp"
+                            app:shape_solidColor="@color/color_F5F5F5">
+
+                            <com.mh55.easy.widget.ClearWriteEditText
+                                android:id="@+id/et_linkman"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:hint="请留下您的姓名"
+                                android:maxLength="5"
+                                android:minHeight="@dimen/dp_40"
+                                android:paddingHorizontal="12dp"
+                                style="@style/edit_style" />
+
+                        </com.hjq.shape.layout.ShapeLinearLayout>
+                    </LinearLayout>
+                </com.hjq.shape.layout.ShapeLinearLayout>
+                <TextView
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:text="说明：工单客服处理问题反馈时间为，每个工作日早上10点至下午17点30分，节假日顺延。"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <com.hjq.shape.view.ShapeTextView
+            android:id="@+id/stvConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="12dp"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="@color/color_white"
+            android:textStyle="bold"
+            app:shape_solidColor="@color/color_shop"
+            app:shape_radius="100dp"/>
+    </LinearLayout>
+</layout>
