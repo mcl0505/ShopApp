@@ -35,7 +35,7 @@ class ShopActivity : BaseRefreshActivity<ActivityShopBinding,MainViewModel,ItemT
         with(mBinding){
             imgBack.singleClick { finish() }
             mRule.singleClick {
-                CommonRichTextDialog("规则","1、只有工作日才能领取（起始30个工作日）； 2、每个包可兑换6次，6次之后需消耗贡献值激活； 3、总券3亿，0～1亿（30个工作日），1亿零1～2亿（45个工作日），2亿零1～3亿（60个工作日）； 4、券包一键领取购物券，需消耗1点贡献值； 5、券包和购物券有效期180天，消费券和优惠券有限期360天； 6、贡献值可兑换VIP功能（月卡），可用于自动一键领取。").showDialog(this@ShopActivity)
+                CommonRichTextDialog("规则","https://qdjtest.qiannengwuxian.com/h5/rule").showDialog(this@ShopActivity)
             }
         }
     }

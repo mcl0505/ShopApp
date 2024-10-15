@@ -11,13 +11,11 @@ import rxhttp.asFlow
 
 class MainViewModel : BaseViewModel() {
 
-    val testToket =
-        "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QiLCJpYXQiOjE3Mjg2MDk4ODMsIm5iZiI6MTcyODYwOTg4MywiZXhwIjoxNzI5MjE0NjgzLCJ1c2VyIjp7Im1vYmlsZSI6IjE0Nzg1NTY0NDMyIiwibmlja25hbWUiOiJcdTVmMjBcdTRlMDkiLCJhdmF0YXIiOiIiLCJwTW9iaWxlIjoiMTQ3ODU1NjQ0MzEifSwianRpIjp7InVpZCI6MCwidHlwZSI6IiJ9fQ.uUOGesO6tOx0m6BfTIop9JpPJxLP80JaLtBGKBtC904"
 
-    fun login() {
+    fun login(token:String) {
         rxRequestHttp {
             onRequest = {
-                ShopHttpRequest.login(testToket).asFlow().collect {
+                ShopHttpRequest.login(token).asFlow().collect {
                     HttpConfig.userToken = it.token
                     getUserInfo()
                 }

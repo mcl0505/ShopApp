@@ -28,6 +28,7 @@ import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ext.toast
 import com.mh55.easy.ext.visible
 import com.mh55.easy.ui.activity.BaseRefreshActivity
+import com.mh55.easy.ui.common.HtmlActivity
 import com.scwang.smart.refresh.layout.SmartRefreshLayout
 import org.jetbrains.anko.textColor
 
@@ -37,7 +38,7 @@ class ListingGoodsActivity : BaseRefreshActivity<ActivityGoodsBinding, MainViewM
             visible()
             setImageResource(R.mipmap.icon_mine_listing_goods_url)
             singleClick {
-
+                HtmlActivity.toStart("https://qdjtest.qiannengwuxian.com/h5/explain")
             }
         }
         return "挂牌商品"
