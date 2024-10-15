@@ -39,6 +39,9 @@ android {
     lint {
         baseline = file("lint-baseline.xml")
     }
+    packagingOptions {
+        exclude 'META-INF/*'
+    }
 
 }
 
@@ -60,6 +63,6 @@ dependencies {
 //    // TODO =======================================  AndroidX  ======================================================
 //    // TODO  方法数超限解决方案
     implementation 'androidx.multidex:multidex:2.0.1'
-    api 'com.github.mcl0505:EasyBase:1.0.8'
+    api 'com.github.mcl0505:EasyBase:1.0.9'
     implementation 'com.zzhoujay.richtext:richtext:2.5.2'
 }
