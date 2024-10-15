@@ -1,27 +1,20 @@
 package com.mh.shop.ui.activity
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.mh.shop.http.CouponPackageBean
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.TaskViewModel
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivityCouponBinding
 import com.mh0505.shop.databinding.ItemTaskCouponBinding
 import com.mh55.easy.ext.DividerOrientation
 import com.mh55.easy.ext.divider
 import com.mh55.easy.ext.getColor
-import com.mh55.easy.ext.grid
 import com.mh55.easy.ext.linear
 import com.mh55.easy.ext.noMoreData
 import com.mh55.easy.ext.setAdapterEmptyOrListOffset
-import com.mh55.easy.ext.setAdapterEmptyOrListPage
 import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ui.activity.BaseRefreshActivity
 import com.scwang.smart.refresh.layout.SmartRefreshLayout

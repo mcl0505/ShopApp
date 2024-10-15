@@ -4,7 +4,6 @@ import android.app.Application
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import com.mh.shop.ui.ShopMainActivity
-import com.mh.shop.ui.activity.SuccessActivity
 import com.mh55.easy.ext.toast
 import com.mh55.easy.manager.AppManager
 import com.mh55.httplibrary.HttpConfig

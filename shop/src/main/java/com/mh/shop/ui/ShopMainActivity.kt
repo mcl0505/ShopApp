@@ -2,7 +2,6 @@ package com.mh.shop.ui
 
 import android.os.Bundle
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.MineViewModel
 import com.mh.shop.ui.fragment.MineFragment
 import com.mh.shop.ui.fragment.TaskFragment
 import com.mh0505.shop.databinding.ActivityShopMainBinding

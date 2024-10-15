@@ -2,12 +2,7 @@ package com.mh.shop.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.mh.shop.http.TaskViewModel
-import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivitySuccessBinding
 import com.mh55.easy.manager.AppManager
 import com.mh55.easy.ui.activity.BaseActivity

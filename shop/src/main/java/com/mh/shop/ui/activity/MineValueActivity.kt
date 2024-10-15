@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.mh.shop.http.LogBean
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.MineViewModel
 import com.mh.shop.http.TabValue
 import com.mh.shop.ui.activity.SuccessActivity
 import com.mh.shop.ui.dialog.CommonActionDialog

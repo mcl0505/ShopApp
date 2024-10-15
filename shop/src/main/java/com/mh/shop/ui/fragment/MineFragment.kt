@@ -3,7 +3,6 @@ package com.mh.shop.ui.fragment
 import android.os.Bundle
 import coil.load
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.MineViewModel
 import com.mh.shop.http.livedata.UserLiveData
 import com.mh.shop.ui.activity.BindAccountActivity
 import com.mh.shop.ui.activity.ConsumeActivity

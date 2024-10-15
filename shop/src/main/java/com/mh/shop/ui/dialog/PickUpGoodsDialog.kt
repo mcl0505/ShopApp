@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.Gravity
 import com.blankj.utilcode.util.ClipboardUtils
 import com.mh.shop.http.GoodsInfoRecordBean
-import com.mh.shop.http.MineViewModel
 import com.mh0505.shop.databinding.DialogPickUpGoodsBinding
 import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ext.toast

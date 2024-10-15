@@ -10,11 +10,9 @@ import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.mh.shop.ext.isHttpUrl
-import com.mh.shop.http.TaskViewModel
 import com.mh0505.shop.databinding.DialgoCommonRichtextBinding
 import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ui.dialog.BaseDialog
-import com.mh55.easy.utils.LogUtil
 
 class CommonRichTextDialog(val mTitle: String, val mContent: String) :
     BaseDialog<DialgoCommonRichtextBinding, TaskViewModel>() {

@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.MineViewModel
 import com.mh.shop.http.SuggestListBean
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivityFeedbackListBinding

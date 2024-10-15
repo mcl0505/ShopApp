@@ -1,16 +1,13 @@
 package com.mh.shop.ui.activity
 
 import android.os.Bundle
-import com.mh.shop.http.DistributorBean
 import com.mh.shop.http.DistributorInfoBean
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.MineViewModel
 import com.mh.shop.ui.dialog.CommonTipDialog
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivityDistributorBinding
 import com.mh0505.shop.databinding.ItemMineDistributorLevelBinding
 import com.mh55.easy.ext.addAdapter
-import com.mh55.easy.ext.getColor
 import com.mh55.easy.ext.linear
 import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ext.visibleOrGone

@@ -1,16 +1,11 @@
 package com.mh.shop.ui.activity
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.blankj.utilcode.util.SpanUtils
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.mh.shop.http.MainViewModel
 import com.mh.shop.http.OptionBean
 import com.mh.shop.http.SubmitOptionBean
-import com.mh.shop.http.TaskViewModel
 import com.mh.shop.http.TestBean
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivityIssueBinding
@@ -22,7 +17,6 @@ import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ext.toast
 import com.mh55.easy.ui.activity.BaseActivity
 import com.mh55.easy.ui.recycler.BindAdapter
-import com.mh55.easy.utils.LogUtil
 
 class IssueActivity : BaseActivity<ActivityIssueBinding, MainViewModel>() {
 

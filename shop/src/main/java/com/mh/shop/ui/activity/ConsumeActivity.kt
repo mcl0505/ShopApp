@@ -1,13 +1,8 @@
 package com.mh.shop.ui.activity
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.mh.shop.http.ConsumeInfoBean
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.MineViewModel
 import com.mh.shop.http.livedata.UserLiveData
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivityConsumeBinding

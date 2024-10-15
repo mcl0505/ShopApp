@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.Gravity
 import com.mh.shop.http.ButtonListBean
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.TaskViewModel
 import com.mh.shop.ui.activity.SuccessActivity
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.DialogShopChangeBinding

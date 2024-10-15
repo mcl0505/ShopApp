@@ -1,24 +1,14 @@
 package com.mh.shop.ui.activity
 
-import android.content.Intent
-import android.os.Build
 import android.os.Bundle
-import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.GridLayoutManager
 import com.mh.shop.adapter.SimpleImageAdapter
-import com.mh.shop.http.MineViewModel
 import com.mh.shop.http.SuggestListBean
-import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivityFeedbackDetailsBinding
 import com.mh55.easy.ext.DividerOrientation
 import com.mh55.easy.ext.divider
-import com.mh55.easy.ext.dp2px
 import com.mh55.easy.ext.getColor
 import com.mh55.easy.ext.grid
-import com.mh55.easy.manager.AppManager
 import com.mh55.easy.ui.activity.BaseActivity
-import com.qnwx.mine.ui.points.MineValueActivity
 import com.zzhoujay.richtext.RichText
 
 class FeedbackDetailsActivity : BaseActivity<ActivityFeedbackDetailsBinding, MineViewModel>() {

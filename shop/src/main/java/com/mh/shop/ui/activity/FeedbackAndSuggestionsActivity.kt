@@ -10,7 +10,6 @@ import com.blankj.utilcode.util.AppUtils
 import com.mh.shop.adapter.SimpleImageAdapter
 import com.mh.shop.http.CancellationReasonBean
 import com.mh.shop.http.MainViewModel
-import com.mh.shop.http.MineViewModel
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.ActivityFeedbackAndSuggestionsBinding
 import com.mh55.easy.ext.DividerOrientation
@@ -27,7 +26,6 @@ import com.mh55.easy.ui.dialog.ImageSelectDialog
 import com.mh55.easy.utils.LogUtil
 import com.permissionx.guolindev.PermissionX
 import com.permissionx.guolindev.dialog.DefaultDialog
-import com.qnwx.mine.ui.points.MineValueActivity
 import org.jetbrains.anko.textColor
 
 

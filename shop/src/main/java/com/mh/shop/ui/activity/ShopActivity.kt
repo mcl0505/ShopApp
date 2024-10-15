@@ -7,7 +7,6 @@ import coil.load
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.mh.shop.http.MainViewModel
 import com.mh.shop.http.ShopBean
-import com.mh.shop.http.TaskViewModel
 import com.mh.shop.ui.dialog.CommonRichTextDialog
 import com.mh.shop.ui.dialog.ShopChangeDialog
 import com.mh0505.shop.R
@@ -19,7 +18,6 @@ import com.mh55.easy.ext.getColor
 import com.mh55.easy.ext.grid
 import com.mh55.easy.ext.noMoreData
 import com.mh55.easy.ext.setAdapterEmptyOrListOffset
-import com.mh55.easy.ext.setAdapterEmptyOrListPage
 import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ui.activity.BaseRefreshActivity
 import com.scwang.smart.refresh.layout.SmartRefreshLayout
