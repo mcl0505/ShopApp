@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.mh.shop.ui.ShopMainActivity
 import com.mh55.easy.ext.toast
 import com.mh55.easy.manager.AppManager
-import com.mh55.httplibrary.HttpConfig
-import com.mh55.httplibrary.RxHttpManager
+import com.mh.httplibrary.HttpConfig
+import com.mh.httplibrary.RxHttpManager
 
 object ShopConfig {
     fun init(application: Application){

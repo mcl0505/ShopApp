@@ -4,13 +4,14 @@ import android.os.Bundle
 import android.view.Gravity
 import com.blankj.utilcode.util.ClipboardUtils
 import com.mh.shop.http.GoodsInfoRecordBean
+import com.mh.shop.http.MainViewModel
 import com.mh0505.shop.databinding.DialogPickUpGoodsBinding
 import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ext.toast
 import com.mh55.easy.ext.visibleOrGone
 import com.mh55.easy.ui.dialog.BaseDialog
 
-class PickUpGoodsDialog(val data:GoodsInfoRecordBean) : BaseDialog<DialogPickUpGoodsBinding,MineViewModel>() {
+class PickUpGoodsDialog(val data:GoodsInfoRecordBean) : BaseDialog<DialogPickUpGoodsBinding, MainViewModel>() {
 
     override fun main(savedInstanceState: Bundle?) {
         super.main(savedInstanceState)

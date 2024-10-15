@@ -2,6 +2,7 @@ package com.mh.shop.ui.activity
 
 import android.os.Bundle
 import com.mh.shop.adapter.SimpleImageAdapter
+import com.mh.shop.http.MainViewModel
 import com.mh.shop.http.SuggestListBean
 import com.mh0505.shop.databinding.ActivityFeedbackDetailsBinding
 import com.mh55.easy.ext.DividerOrientation
@@ -11,7 +12,7 @@ import com.mh55.easy.ext.grid
 import com.mh55.easy.ui.activity.BaseActivity
 import com.zzhoujay.richtext.RichText
 
-class FeedbackDetailsActivity : BaseActivity<ActivityFeedbackDetailsBinding, MineViewModel>() {
+class FeedbackDetailsActivity : BaseActivity<ActivityFeedbackDetailsBinding, MainViewModel>() {
     var bean: SuggestListBean?=null
 
     private val mPicAdapter by lazy { SimpleImageAdapter(1) }

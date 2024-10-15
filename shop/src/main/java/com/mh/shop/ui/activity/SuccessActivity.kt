@@ -3,11 +3,12 @@ package com.mh.shop.ui.activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.mh.shop.http.MainViewModel
 import com.mh0505.shop.databinding.ActivitySuccessBinding
 import com.mh55.easy.manager.AppManager
 import com.mh55.easy.ui.activity.BaseActivity
 
-class SuccessActivity : BaseActivity<ActivitySuccessBinding,TaskViewModel>() {
+class SuccessActivity : BaseActivity<ActivitySuccessBinding, MainViewModel>() {
 
     companion object {
         /**

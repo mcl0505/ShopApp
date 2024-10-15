@@ -4,9 +4,9 @@ import androidx.lifecycle.MutableLiveData
 import com.mh.shop.http.livedata.UserLiveData
 import com.mh55.easy.ext.toast
 import com.mh55.easy.mvvm.BaseViewModel
-import com.mh55.httplibrary.HttpConfig
-import com.mh55.httplibrary.ext.errorMsg
-import com.mh55.httplibrary.ext.rxRequestHttp
+import com.mh.httplibrary.HttpConfig
+import com.mh.httplibrary.ext.errorMsg
+import com.mh.httplibrary.ext.rxRequestHttp
 import rxhttp.asFlow
 
 class MainViewModel : BaseViewModel() {

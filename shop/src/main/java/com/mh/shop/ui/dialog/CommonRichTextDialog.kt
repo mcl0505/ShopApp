@@ -10,12 +10,13 @@ import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.mh.shop.ext.isHttpUrl
+import com.mh.shop.http.MainViewModel
 import com.mh0505.shop.databinding.DialgoCommonRichtextBinding
 import com.mh55.easy.ext.singleClick
 import com.mh55.easy.ui.dialog.BaseDialog
 
 class CommonRichTextDialog(val mTitle: String, val mContent: String) :
-    BaseDialog<DialgoCommonRichtextBinding, TaskViewModel>() {
+    BaseDialog<DialgoCommonRichtextBinding, MainViewModel>() {
     override fun main(savedInstanceState: Bundle?) {
         super.main(savedInstanceState)
         with(mDialogBinding) {

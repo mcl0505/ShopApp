@@ -11,7 +11,7 @@ import com.mh.shop.ui.activity.ShopActivity
 import com.mh0505.shop.R
 import com.mh0505.shop.databinding.FragmentTaskBinding
 import com.mh0505.shop.databinding.ItemTaskBinding
-import com.mh55.easy.EasyApp
+import com.mh55.easy.app.AppConfig
 import com.mh55.easy.ext.addAdapter
 import com.mh55.easy.ext.getColor
 import com.mh55.easy.ext.linear
@@ -36,7 +36,7 @@ class TaskFragment : BaseFragment<FragmentTaskBinding, MainViewModel>() {
                 startActivity(CouponActivity::class.java)
             }
             adValue.singleClick {
-                EasyApp.appContext.onErrorTip(9527,"reward")
+                AppConfig.mAppListener.onErrorTip(9527,"reward")
             }
             issueValue.singleClick {
                 startActivity(IssueActivity::class.java)
