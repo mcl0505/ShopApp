@@ -41,7 +41,7 @@ fun BaseViewModel.rxRequestHttp(requestDslClass: HttpRequestDSL.()->Unit){
 
             }catch (ex:Exception){
                 errorCodeProcess(e){
-                    AppConfig.mAppListener.onErrorTip(e.errorCode,e.errorMsg)
+                    AppConfig.mAppListener?.onErrorTip(e.errorCode,e.errorMsg)
                 }
 
             }

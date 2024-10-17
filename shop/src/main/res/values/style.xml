@@ -2,11 +2,11 @@
 <resources>
     <style name="tv_16_333">
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/ps_color_33</item>
+        <item name="android:textColor">@color/color_333333</item>
     </style>
     <style name="tv_16_333_bold">
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/ps_color_33</item>
+        <item name="android:textColor">@color/color_333333</item>
         <item name="android:textStyle">bold</item>
     </style>
     

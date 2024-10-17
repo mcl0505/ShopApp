@@ -36,7 +36,7 @@ class TaskFragment : BaseFragment<FragmentTaskBinding, MainViewModel>() {
                 startActivity(CouponActivity::class.java)
             }
             adValue.singleClick {
-                AppConfig.mAppListener.onErrorTip(9527,"reward")
+                AppConfig.mAppListener?.onErrorTip(9527,"reward")
             }
             issueValue.singleClick {
                 startActivity(IssueActivity::class.java)

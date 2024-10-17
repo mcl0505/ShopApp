@@ -10,7 +10,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/ps_color_f2"
+        android:background="#F2F2F2"
         tools:context=".ui.fragment.TaskFragment">
 
         <ImageView
@@ -109,7 +109,7 @@
                                 android:drawableRight="@mipmap/icon_task_into"
                                 android:drawablePadding="4dp"
                                 android:text="点击进入"
-                                android:textColor="@color/ps_color_66"
+                                android:textColor="@color/color_666666"
                                 android:textSize="12sp" />
                         </LinearLayout>
 
@@ -140,7 +140,7 @@
                                 android:drawableRight="@mipmap/icon_task_into"
                                 android:drawablePadding="4dp"
                                 android:text="点击进入"
-                                android:textColor="@color/ps_color_66"
+                                android:textColor="@color/color_666666"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -160,7 +160,7 @@
                         android:layout_marginTop="12dp"
                         android:padding="16dp"
                         app:shape_radius="8dp"
-                        app:shape_solidColor="@color/ps_color_white">
+                        app:shape_solidColor="@color/color_white">
 
                         <TextView
                             android:id="@+id/shopHint"
@@ -196,7 +196,7 @@
                         android:layout_marginTop="12dp"
                         android:padding="16dp"
                         app:shape_radius="8dp"
-                        app:shape_solidColor="@color/ps_color_white">
+                        app:shape_solidColor="@color/color_white">
 
                         <TextView
                             android:id="@+id/pushHint"
@@ -232,7 +232,7 @@
                         android:layout_marginTop="12dp"
                         android:padding="16dp"
                         app:shape_radius="8dp"
-                        app:shape_solidColor="@color/ps_color_white">
+                        app:shape_solidColor="@color/color_white">
 
                         <TextView
                             android:id="@+id/adHint"
@@ -260,7 +260,7 @@
                             app:shape_radius="100dp"
                             android:gravity="center"
                             android:text="看视频(1/5)"
-                            android:textColor="@color/ps_color_white"
+                            android:textColor="@color/color_white"
                             android:textSize="12sp" />
 
                     </com.hjq.shape.layout.ShapeRelativeLayout>
@@ -272,7 +272,7 @@
                         android:layout_marginTop="12dp"
                         android:padding="16dp"
                         app:shape_radius="8dp"
-                        app:shape_solidColor="@color/ps_color_white">
+                        app:shape_solidColor="@color/color_white">
 
                         <TextView
                             android:id="@+id/issueHint"
@@ -302,7 +302,7 @@
                             app:shape_radius="100dp"
                             android:gravity="center"
                             android:text="去做题"
-                            android:textColor="@color/ps_color_white"
+                            android:textColor="@color/color_white"
                             android:textSize="12sp" />
 
                     </com.hjq.shape.layout.ShapeRelativeLayout>
@@ -315,7 +315,7 @@
                         android:layout_marginBottom="24dp"
                         android:padding="16dp"
                         app:shape_radius="8dp"
-                        app:shape_solidColor="@color/ps_color_white">
+                        app:shape_solidColor="@color/color_white">
 
                         <TextView
                             android:id="@+id/suggestHint"
@@ -335,7 +335,7 @@
                             app:shape_radius="100dp"
                             android:gravity="center"
                             android:text="去建言"
-                            android:textColor="@color/ps_color_white"
+                            android:textColor="@color/color_white"
                             android:textSize="12sp" />
 
                     </com.hjq.shape.layout.ShapeRelativeLayout>

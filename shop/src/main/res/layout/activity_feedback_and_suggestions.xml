@@ -32,14 +32,14 @@
                     android:layout_marginTop="20dp"
                     android:text="请选择反馈类型"
                     android:textColor="@color/color_333333"
-                    android:textSize="@dimen/sp_14"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <com.hjq.shape.view.ShapeTextView
                     android:visibility="gone"
                     android:id="@+id/tv_select_feedback_type"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_40"
+                    android:layout_height="40dp"
                     android:layout_marginTop="12dp"
                     android:drawableRight="@mipmap/icon_into_aeaeae"
                     android:gravity="center_vertical"
@@ -117,7 +117,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:layout_marginBottom="@dimen/dp_10"
+                        android:layout_marginBottom="10dp"
                         android:text="上传照片(最多6张)"
                         android:textColor="#959595"
                         android:textSize="12sp"
@@ -130,7 +130,7 @@
                     android:layout_marginTop="20dp"
                     android:text="联系方式"
                     android:textColor="@color/color_333333"
-                    android:textSize="@dimen/sp_14"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <com.hjq.shape.layout.ShapeLinearLayout
@@ -139,7 +139,7 @@
                     android:layout_marginTop="12dp"
                     android:orientation="vertical"
                     android:paddingHorizontal="14dp"
-                    android:paddingVertical="@dimen/dp_10"
+                    android:paddingVertical="10dp"
                     app:shape_radius="5dp"
                     app:shape_solidColor="@color/color_white">
 
@@ -154,7 +154,7 @@
                             android:layout_height="wrap_content"
                             android:text="手机号码"
                             android:textColor="@color/color_333333"
-                            android:textSize="@dimen/sp_14"
+                            android:textSize="14sp"
                             android:textStyle="bold" />
 
                         <com.hjq.shape.layout.ShapeLinearLayout
@@ -171,7 +171,7 @@
                                 android:hint="请留下您手机号"
                                 android:inputType="phone"
                                 android:maxLength="11"
-                                android:minHeight="@dimen/dp_40"
+                                android:minHeight="40dp"
                                 android:paddingHorizontal="12dp"
                                 style="@style/edit_style" />
 
@@ -181,7 +181,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginTop="10dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal">
 
@@ -190,7 +190,7 @@
                             android:layout_height="wrap_content"
                             android:text="姓名"
                             android:textColor="@color/color_333333"
-                            android:textSize="@dimen/sp_14"
+                            android:textSize="14sp"
                             android:textStyle="bold" />
 
                         <com.hjq.shape.layout.ShapeLinearLayout
@@ -206,7 +206,7 @@
                                 android:gravity="center_vertical"
                                 android:hint="请留下您的姓名"
                                 android:maxLength="5"
-                                android:minHeight="@dimen/dp_40"
+                                android:minHeight="40dp"
                                 android:paddingHorizontal="12dp"
                                 style="@style/edit_style" />
 
@@ -214,7 +214,7 @@
                     </LinearLayout>
                 </com.hjq.shape.layout.ShapeLinearLayout>
                 <TextView
-                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:text="说明：工单客服处理问题反馈时间为，每个工作日早上10点至下午17点30分，节假日顺延。"
                     android:layout_height="wrap_content" />

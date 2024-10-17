@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         app:shape_solidColor="#FFF6D5"
         app:shape_radius="6dp"
-        android:textColor="@color/ps_color_33"
+        android:textColor="@color/color_333333"
         android:textSize="12sp"
         android:layout_marginTop="8dp"
         android:text="第一轮：1000万（兑换），30次领取"
